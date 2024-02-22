@@ -105,6 +105,29 @@ width: 33%;
 #prenom {
   color: var(--red);
 }
+.icon.facebook {
+    width: 50px; 
+    fill: #008170; 
+  }
+
+.icon.insta {
+    width: 50px; 
+    fill: #008170; 
+  }
+h4
+{
+    font-family: var(--fontMetalMania);
+    font-size: 25px;
+    color: var(--red);
+}
+  .socials
+  {
+    display: flex;
+    justify-content:space-between;;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+  }
 
 @media screen and (max-width: 400px) {
   h1 {
