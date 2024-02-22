@@ -1,91 +1,107 @@
 :root {
-    --black: #0F0F0F;
-    --red: #008170;
-    --white: #005B41;
-    --fontNosifer: "Nosifer", sans-serif;
-    --fontMetalMania: "Metal Mania", system-ui;
-    --font-size25: 25px;
+  --black: #0f0f0f;
+  --red: #008170;
+  --white: #005b41;
+  --fontNosifer: "Nosifer", sans-serif;
+  --fontMetalMania: "Metal Mania", system-ui;
+  --font-size25: 25px;
 }
 
 body {
-    background-color: var(--black);
+  background-color: var(--black);
+}
+
+.container {
+  max-width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-    text-align: center;
-    font-size: 90px;
-    font-family: var(--fontNosifer);
-    color: var(--red);
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  font-size: 90px;
+  font-family: var(--fontNosifer);
+  color: var(--red);
+  margin: 0;
+  padding: 0;
 }
 
 h3 {
+  text-align: center;
+  font-size: var(--font-size25);
+  font-family: var(--fontMetalMania);
+  color: white;
+  text-shadow: 2px 2px 2px var(--red);
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-size: 25px;
+  font-family: var(--fontMetalMania);
+  color: white;
+  text-shadow: 2px 2px 2px var(--red);
+  letter-spacing: 2px;
+  width: 90%;
+  margin: 10px;
+  padding: 20px;
+}
+
+.photos {
+  display: flex;
+  max-width: 99%;
+  justify-content: space-between;
+  align-items: center;
+}
+#photo1 {
+  max-width: 33%;
+  height: auto;
+  border-radius: 40px 5px 5px 40px;
+  border: 3px solid var(--white);
+}
+#photo2 {
+  max-width: 33%;
+  height: auto;
+  border: 3px solid var(--white);
+  margin: 0px 3px 0px;
+}
+#photo3 {
+  max-width: 33%;
+  height: auto;
+  border-radius: 5px 40px 40px 5px;
+  border: 3px solid var(--white);
+}
+
+#prenom {
+  color: var(--red);
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    max-width: 90%;
+  }
+
+  img {
+    width: 250px;
+    height: auto;
+    border-radius: 40px;
+    border: 3px solid var(--white);
+  }
+  h3 {
     text-align: center;
-    font-size: var(--font-size25);
-    font-family: var(--fontMetalMania);
-    color: white;
     text-shadow: 2px 2px 2px var(--red);
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
-    font-size: 35px;
-}
-
-.presentation {
-    display: flex;
-    justify-content: center;
-}
-p {
-    font-size: 25px;
-    font-family: var(--fontMetalMania);
-    color: white;
-    text-shadow: 2px 2px 2px var(--red);
-    letter-spacing: 2px;
-    width: 90%;
-    margin: 10px;
-    padding: 20px;
-}
-
-.photos {
-    display: flex;
-    max-width: 99%;
-    justify-content: space-between;
-    align-items: center;
-}
-#photo1{
-    max-width: 33%;
-    height: auto;
-    border-radius: 40px 5px 5px 40px;
-    border: 3px solid var(--white);
-}
-#photo2 {
-    max-width: 33%;
-    height: auto;
-    border: 3px solid var(--white);
-    margin: 0px 3px 0px;
-}
-#photo3 {
-    max-width: 33%;
-    height: auto;
-    border-radius: 5px 40px 40px 5px;
-    border: 3px solid var(--white);
-}
-
-#prenom {
-    color: var(--red);
-}
-
-@media screen and(max-width: 900px) {
-    h1 {
-        font-size: 30px;
-        max-width: 90%;
-    }
-
-    img {
-        width: 250px;
-        height: auto;
-        border-radius: 40px;
-        border: 3px solid var(--white);
-    }
+    font-size: 15px;
+  }
 }
