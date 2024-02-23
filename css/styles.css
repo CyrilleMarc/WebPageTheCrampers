@@ -104,10 +104,11 @@ width: 33%;
   border: 3px solid var(--white);
 }
 #photo4 {
-  width: 33%;
-  height: 427px;
-  border-radius: 40px 5px 5px 40px;
-  border: 3px solid var(--white);
+    width: 33%;
+    height: 427px;
+    border-radius: 40px 5px 5px 40px;
+    border: 3px solid var(--white);
+    object-fit: cover;
 }
 #photo5 {
     width: 33%;
@@ -209,12 +210,13 @@ h4
     border: 3px solid var(--white);
     margin : 0px 0px 2px;
   }
-  #photo4 {
-    width: 99%;
-    border-radius: 5px ;
-    border: 3px solid var(--white);
-    margin : 0px 0px 2px;
-  }
+    #photo4 {
+        width: 99%;
+        border-radius: 5px;
+        border: 3px solid var(--white);
+        margin: 0px 0px 2px;
+        object-fit: cover;
+    }
   #photo6 {
     width: 99%;
     border-radius: 5px;
