@@ -87,9 +87,10 @@ p {
 
 #photo1 {
   width: 33%;
-  height:auto;
+  height:1384px;
   border-radius: 40px 5px 5px 40px;
   border: 3px solid var(--white);
+  object-fit: cover;
 }
 #photo2 {
 width: 33%;
@@ -193,33 +194,39 @@ h4
 }
   #photo1 {
     width: 99%;
+    height: auto;
     border-radius: 5px ;
     border: 3px solid var(--white);
     margin : 0px 0px 2px;
+    object-fit: cover;
   }
   #photo2 {
     width: 99%;
     border-radius: 5px;
     border: 3px solid var(--white);
     margin : 0px 0px 2px;
+    object-fit: cover;
   }
   #photo3 {
     width: 99%;
     border-radius: 5px;
     border: 3px solid var(--white);
     margin : 0px 0px 2px;
+    object-fit: cover;
   }
   #photo4 {
     width: 99%;
     border-radius: 5px ;
     border: 3px solid var(--white);
     margin : 0px 0px 2px;
+    object-fit: cover;
   }
   #photo6 {
     width: 99%;
     border-radius: 5px;
     border: 3px solid var(--white);
     margin : 0px 0px 2px;
+    object-fit: cover;
   }
   #photo5 {
     display: none;
