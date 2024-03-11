@@ -215,7 +215,7 @@ h4
     margin : 0px 0px 2px;
     object-fit: cover;
   }
-<<<<<<< HEAD
+
   #photo4 {
     width: 99%;
     border-radius: 5px ;
@@ -223,7 +223,7 @@ h4
     margin : 0px 0px 2px;
     object-fit: cover;
   }
-=======
+
     #photo4 {
         width: 99%;
         border-radius: 5px;
@@ -231,7 +231,6 @@ h4
         margin: 0px 0px 2px;
         object-fit: cover;
     }
->>>>>>> cb288f6b0d3a1c3f88b9b1886cc6bb6d399f582b
   #photo6 {
     width: 99%;
     border-radius: 5px;
